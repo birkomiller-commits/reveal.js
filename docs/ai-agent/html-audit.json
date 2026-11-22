@@ -2,7 +2,7 @@
   "documents": [
     {
       "file": "AI_agent_lesson.html",
-      "bytes": 254928,
+      "bytes": 255039,
       "language": {
         "lang": "ug",
         "dir": "rtl"
@@ -17,8 +17,8 @@
         "meta": 4,
         "title": 1,
         "style": 1,
-        "link": 7,
-        "script": 12,
+        "link": 8,
+        "script": 13,
         "body": 1,
         "a": 1,
         "div": 24,

@@ -1,0 +1,10 @@
+{
+  "result": "passed",
+  "layouts": 144,
+  "checks": [
+    "text-only scaling, reload persistence, dynamic lesson content, keyboard range/Escape and comfort-mode compatibility",
+    "all 18 lessons at 125% and 200% across four viewports; home, mission and sign-in dialog fit; reset survives reload"
+  ],
+  "issues": [],
+  "errors": []
+}
