@@ -6,9 +6,9 @@ html[lang=ug] :is(h1,h2,h3,h4,p,li,label,button,summary,dt,dd,blockquote,option,
  word-break:normal;
  hyphens:none;
 }
-html[lang=ug]{--font-mono:SFMono-Regular,Consolas,Bahij,monospace}
-html[lang=ug] .lab-tag:not([dir=ltr]){font-family:Bahij,Arial,sans-serif}
-html[lang=ug] body{font-family:Bahij,Arial,sans-serif;text-rendering:optimizeLegibility}
+html[lang=ug]{--font-body:UKIJKUY,Bahij,Arial,sans-serif;--font-display:UKIJKUY,Bahij,Arial,sans-serif;--font-reading:UKIJKUY,Bahij,Arial,sans-serif;--font-mono:SFMono-Regular,Consolas,UKIJKUY,Bahij,monospace}
+html[lang=ug] .lab-tag:not([dir=ltr]){font-family:UKIJKUY,Bahij,Arial,sans-serif}
+html[lang=ug] body{font-family:UKIJKUY,Bahij,Arial,sans-serif;text-rendering:optimizeLegibility}
 html[lang=ug] :is(.process-node p,.result-reason,.comparison-panels strong,.english-term){overflow-wrap:break-word}
 html[lang=ug] :is(pre,code,[dir=ltr],bdi){unicode-bidi:isolate}
 html[lang=ug] :is(pre,code){text-rendering:auto;font-variant-ligatures:none}
