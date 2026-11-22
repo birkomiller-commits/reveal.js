@@ -15,7 +15,7 @@ const set=async(id,value)=>{await page.$eval(`[data-demo-field="${id}"]`,(e,v)=>
 const click=async action=>tap(`[data-demo-action="${action}"]`);
 try{
  await page.setViewport({width:1440,height:1000,deviceScaleFactor:1});await page.setOfflineMode(true);await page.goto(url,{waitUntil:'networkidle0'});await page.evaluate(()=>document.fonts.ready);
- assert(await page.evaluate(()=>document.fonts.check('20px Bahij')));checks.push('embedded local Uyghur font loads from file://');
+ assert(await page.evaluate(()=>document.fonts.check('20px UKIJKUY')));checks.push('embedded local Uyghur font loads from file://');
  assert(await page.$('.home-page'));assert.equal(await page.$$eval('.home-lesson-card',s=>s.length),lessons.length);checks.push('home contains intro, 18 lessons and start');
  await page.screenshot({path:'docs/ai-agent/interactive-home.png'});
  await open(1);assert(await page.$('.prediction-placeholder'));await click('run');assert(await page.$('.prediction-placeholder'));await page.select('#predictionChoice','tool');await click('next');assert(await page.$('.result-summary'));assert(await page.$eval('#completeButton',e=>e.disabled));await page.select('#learningMode','explore');checks.push('prediction-first mode hides results until a choice and completion is gated');

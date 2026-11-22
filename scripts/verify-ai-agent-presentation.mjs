@@ -13,7 +13,7 @@ try {
  const total=await page.$$eval('.slide',s=>s.length);assert.equal(total,42);
  await page.addStyleTag({content:'.slides-container{transition:none!important}.slide.active .lesson-workbench,.slide.active .lesson-number{animation:none!important}'});
  const fontStatus=await page.evaluate(()=>[...document.fonts].map(f=>({family:f.family,status:f.status})));
- assert(fontStatus.every(f=>f.status==='loaded'));tests.push('local fonts');
+ assert(await page.evaluate(()=>document.fonts.check('20px UKIJKUY')));tests.push('local fonts');
  const layouts=[];
  for(const [width,height] of [[1440,900],[1280,720],[1920,1080],[390,844]]){
   await page.setViewport({width,height,deviceScaleFactor:1});

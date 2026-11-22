@@ -1,0 +1,45 @@
+{
+  "result": "passed",
+  "source": "assets/fonts/UKIJKUY.TTF",
+  "font_family": "UKIJ Kufi Yay",
+  "css_alias": "UKIJKUY",
+  "custom_font_glyphs_verified": [
+    {
+      "selector": ".lesson-explanation>p",
+      "fonts": [
+        {
+          "familyName": "UKIJ Kufi Yay",
+          "postScriptName": "UKIJ_Kufi_Yay",
+          "isCustomFont": true,
+          "glyphCount": 75
+        }
+      ]
+    },
+    {
+      "selector": ".lesson-heading h1",
+      "fonts": [
+        {
+          "familyName": "UKIJ Kufi Yay",
+          "postScriptName": "UKIJ_Kufi_Yay",
+          "isCustomFont": true,
+          "glyphCount": 17
+        }
+      ]
+    },
+    {
+      "selector": ".hint-intro h2",
+      "fonts": [
+        {
+          "familyName": "UKIJ Kufi Yay",
+          "postScriptName": "UKIJ_Kufi_Yay",
+          "isCustomFont": true,
+          "glyphCount": 24
+        }
+      ]
+    }
+  ],
+  "controls_font_verified": true,
+  "code_font_preserved": true,
+  "offline": true,
+  "errors": []
+}

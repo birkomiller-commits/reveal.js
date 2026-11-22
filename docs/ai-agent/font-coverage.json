@@ -1,0 +1,17 @@
+[
+  {
+    "font": "UKIJKUY.TTF",
+    "required_arabic_codepoints": 36,
+    "missing": ""
+  },
+  {
+    "font": "Bahij-Helvetica-Neue-Roman.ttf",
+    "required_arabic_codepoints": 36,
+    "missing": ""
+  },
+  {
+    "font": "alkatip-rukki.ttf",
+    "required_arabic_codepoints": 36,
+    "missing": ""
+  }
+]

@@ -33,7 +33,7 @@ coverage=runpy.run_path('scripts/check-ai-agent-fonts.py')['cmap']
 required={ord(c) for c in json.dumps(lessons,ensure_ascii=False) if '\u0600'<=c<='\u06ff'}
 fonts=[]
 for p in Path('assets/fonts').iterdir():
-    if p.suffix in ['.ttf','.otf']:
+    if p.suffix.lower() in ['.ttf','.otf']:
         fonts.append({'font':p.name,'missing_arabic_characters':''.join(chr(c) for c in sorted(required-coverage(p)))})
 report={'documents':reports,'lesson_count':len(lessons),'lesson_order':[l['id'] for l in lessons],
     'complete_lessons':all(all(k in l for k in ['objective','theme','demo','quiz','detail','rule']) for l in lessons),

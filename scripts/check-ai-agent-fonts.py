@@ -53,7 +53,7 @@ if __name__ == '__main__':
     text = Path('assets/ai-agent/lessons.json').read_text() + Path('assets/ai-agent/workshops.json').read_text()
     required = {ord(c) for c in text if '\u0600' <= c <= '\u06ff'}
     report = []
-    for name in ['Bahij-Helvetica-Neue-Roman.ttf','alkatip-rukki.ttf']:
+    for name in ['UKIJKUY.TTF','Bahij-Helvetica-Neue-Roman.ttf','alkatip-rukki.ttf']:
         supported = cmap(Path('assets/fonts')/name)
         missing = ''.join(chr(c) for c in sorted(required-supported))
         report.append({'font':name,'required_arabic_codepoints':len(required),'missing':missing})

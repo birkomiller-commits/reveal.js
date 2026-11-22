@@ -8,7 +8,7 @@ The new identity applies to the interactive lesson at `AI_agent_lesson.html` and
 
 - `js/ai-agent-ocean.js` creates a locally rendered SVG sea nettle, glass habitat, pearl and progress panels. No remote images, WebGL dependency, microphone, model call or API key is needed for the visual experience.
 - `css/ai-agent/deep-sea.css` supplies the glass layers, depth shadows, perspective tilt, soft caustic light, pulsing bell, swaying tentacles, floating pearl and sequential card entrances.
-- Existing local Bahij typography remains. Body and practice text stays 12px by default; lesson titles stay 13px. The existing optional comfort-reading mode remains available.
+- Local UKIJKUY typography is primary, with Bahij as a fallback. Body and practice text stays 12px by default; lesson titles stay 13px. The existing optional comfort-reading mode remains available.
 - The desktop bento uses a 12-column composition; the lesson introduction has a compact companion orb. Phone layouts stack the dashboard and reduce the lesson orb to a small status companion.
 
 ## Interaction

@@ -6,7 +6,7 @@ from fontTools.ttLib import TTFont
 import json
 
 report=[]
-for name in ['Bahij-Helvetica-Neue-Roman.ttf','alkatip-rukki.ttf']:
+for name in ['UKIJKUY.TTF','Bahij-Helvetica-Neue-Roman.ttf','alkatip-rukki.ttf']:
     source=Path('assets/fonts')/name
     original=TTFont(source)
     coverage=set(original.getBestCmap())
